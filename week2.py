@@ -45,9 +45,5 @@ age = int(input("Enter age: "))
 
 
 with open("/Users/olehpysmenko/Desktop/Projects/Python-practices2/userData1.txt", "a") as dataFile:
-
-
-
-    # method 1  
-
     wContent = dataFile.write("\n"+  uName +" " + " " + fName + " " + str(age) )
+    
